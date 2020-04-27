@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+.kaniz {
+    width: 100%;
+    height: 200px;
+    background-image: url("images5/bird.gif");
+	background-size: 100px 100px;
+    background-repeat: no-repeat;
+    position: relative;
+
+    -webkit-animation: mymove 15s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 15s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {left: 100%;}
+    to {left: -20px;}
+}
+
+@keyframes mymove {
+    from {left: 100%;}
+    to {left: -20px;}
+}
+</style>
+</head>
+<body>
+
+<div class="kaniz"></div>
+
+</body>
+</html>
