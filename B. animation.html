@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style> 
+		.anima {
+			width: 100px;
+			height: 100px;
+			background: red;
+			
+			position :relative;
+			
+			-webkit-animation: mymove 15s infinite; /* Chrome, Safari, Opera */ 
+			animation: mymove 15s infinite;
+		}
+
+		/* Chrome, Safari, Opera */ 
+		@-webkit-keyframes mymove {
+			0%   {top: 0px;}
+			25%  {top: 600px;}
+			75%  {top: 50px}
+			100% {top: 300px;}
+		}
+
+		/* Standard syntax */
+		@keyframes mymove {
+			0%   {top: 0px;}
+			25%  {top: 600px;}
+			75%  {top: 50px}
+			100% {top: 300px;}
+		}
+	</style>
+</head>
+<body>
+
+<div class="anima"></div>
+
+</body>
+</html>
