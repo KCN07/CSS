@@ -1,0 +1,41 @@
+<html>
+
+<head>
+	<style>
+		.table > div > div {
+			width: 33%;
+			display: table-cell;
+		}
+		.table > div {
+			width: 100%;
+			display: table;
+			background-color: lightgreen; /* 1st Priority */
+			text-align: center;
+		}
+		.table > div:nth-child(1) {
+			font-weight: bold;
+			background-color: lightblue !important; /* 2nd Priority */
+		}
+		body {
+			font-family: Verdana;
+		}
+	</style>
+</head>
+
+<body>
+
+<div class="table">
+	<div>
+		<div>A</div>
+		<div>B</div>
+		<div>C</div>
+	</div>
+	<div>
+		<div>A</div>
+		<div>B</div>
+		<div>C</div>
+	</div>
+</div>
+
+</body>
+</html>
