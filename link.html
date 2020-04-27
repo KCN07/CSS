@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- 
+
+There are several States of a Link
+
+link = Just a link, you didn't do anything with the Link
+visited = You already have visited the Link 
+hover = You have kept your mouse over the Link but didn't click on it or didn't visit it
+active = You have kept your Mouse Right Button active on the Link
+-->
+
+<style>
+	/* unvisited link */
+	a:link {
+		background-color: green;
+		color: white;
+		text-decoration: none;
+	}
+	
+	/* visited link */
+	a:visited {
+		background-color: red;
+		color: white;
+		text-decoration: none;
+	}
+	
+	/* mouse over link */
+	a:hover {
+		background-color: pink;
+		color:white;
+		text-decoration: none;
+	}   
+	
+	/* selected link */
+	a:active {
+		background-color: blue;
+		color: lightgreen;
+		text-decoration: none;
+	}
+</style>
+
+</head>
+
+<body>
+	<p><b>
+		<a href="https://www.google.com.bd" >&nbsp; This is a Link&nbsp;</a>
+		<a href="https://www.google.com.bd" >&nbsp; This is a Link&nbsp;</a>
+		<a href="https://www.google.com.bd" >&nbsp; This is a Link&nbsp;</a>
+	</b></p>
+</body>
+</html>

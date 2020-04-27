@@ -1,0 +1,46 @@
+<html>
+<head>
+	<!-- DESCENDENT Selector -->
+	<style>
+	div p {
+	    color:black;
+		background-color: yellow;
+	}
+	.kaniz .no_use span {
+		background-color: lightblue;
+	}
+	.kaniz span {
+		background-color: lime;
+	}
+	
+	p{
+	
+	    color:blue;
+	}
+	</style>
+</head>
+<body>
+
+<div class="kaniz">
+	<p>This P TAG is Decendent of DIV TAG / Yellow</p>
+	
+	<article>
+		<p>This P TAG is Decendent of DIV TAG / Yellow</p>
+	</article>
+	
+	<div class="no_use">
+		Hello World... 
+		<span class="fatima">
+			I am getting lightblue!
+		</span>
+	</div>
+	<span>
+		I am getting lime!
+	</span>
+</div>
+
+<p>Paragraph 4. Not in a div.</p>
+<p>Paragraph 5. Not in a div.</p>
+
+</body>
+</html>
